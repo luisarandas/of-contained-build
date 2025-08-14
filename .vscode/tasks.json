@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build my_new_app1",
+      "type": "shell",
+      "command": "OF_ROOT=\"${workspaceFolder}/libs/openFrameworks\" make -C projects/my_new_app1 -j",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run my_new_app1",
+      "type": "shell",
+      "command": "OF_ROOT=\"${workspaceFolder}/libs/openFrameworks\" make -C projects/my_new_app1 RunRelease",
+      "dependsOn": [
+        "Build my_new_app1"
+      ]
+    },
+    {
+      "label": "Clean my_new_app1",
+      "type": "shell",
+      "command": "OF_ROOT=\"${workspaceFolder}/libs/openFrameworks\" make -C projects/my_new_app1 clean"
+    }
+  ]
+}

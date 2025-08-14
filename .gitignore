@@ -1,0 +1,34 @@
+# openFrameworks library (cloned from git)
+libs/openFrameworks/
+
+# Build artifacts
+projects/*/bin/
+projects/*/obj/
+projects/*/build/
+projects/*/libs/
+projects/*/*.app/
+projects/*/openFrameworks-Info.plist
+
+# macOS specific
+.DS_Store
+*.app/
+
+# Linux specific
+*.o
+*.so
+*.a
+
+# Windows specific
+*.exe
+*.dll
+*.lib
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,25 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "OF",
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "clang-x64",
+      "includePath": [
+        "${workspaceFolder}/projects/my_new_app1/src",
+        "${workspaceFolder}/libs/openFrameworks/libs/**",
+        "${workspaceFolder}/libs/openFrameworks/addons/**",
+        "${workspaceFolder}/libs/openFrameworks/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/libs/openFrameworks/libs",
+          "${workspaceFolder}/libs/openFrameworks/addons"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
