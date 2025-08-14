@@ -2,7 +2,12 @@
 
 Self-contained [openFrameworks](https://openframeworks.cc/) setup for VSCode/Cursor with CMake divided in **three scripts**: 1) Setup once at the dev, 2) generate apps with specific addons, 3) build independently. These should be developed in one shot, and 1st script named according to OS.
 
-## Quick Start (Dev: MacOS 12.2)
+### Tests for Development
+
+`./build_project_macos122.sh`  
+MacOS Monterey 12.2  
+
+### Quick Start (Dev: MacOS 12.2)
 ```bash
 # Setup OpenFrameworks
 ./build_project_macos122.sh
