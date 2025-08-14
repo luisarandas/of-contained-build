@@ -19,7 +19,4 @@ cd projects/app_test_1
 # make RunRelease
 ```
 
-- No IDE required. Uses openFrameworks Makefile toolchain on VSCode/Cursor.
-- openFrameworks compiled once, shared across all apps.
-
 Roadmap todo
