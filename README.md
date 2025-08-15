@@ -1,6 +1,6 @@
 # of-contained-build
 
-Self-contained [openFrameworks](https://openframeworks.cc/) setup for VSCode/Cursor with CMake divided in **three scripts**: 1) Setup once at the dev, 2) generate apps with specific addons, 3) build independently. These should be developed in one shot, and 1st script named according to OS.
+Self-contained [openFrameworks](https://openframeworks.cc/) setup for VSCode/Cursor with CMake divided in **three scripts**: 1) Setup once at the dev, 2) generate apps with specific addons, 3) build independently. These should be developed in one shot, and 1st/2nd scripts named according to OS.
 
 ### Tests for Development
 

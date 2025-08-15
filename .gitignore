@@ -1,6 +1,9 @@
 # openFrameworks library (cloned from git)
 libs/openFrameworks/
 
+# Android SDK and tools (not fixed)
+libs/android/
+
 # Build artifacts
 projects/*/bin/
 projects/*/obj/
@@ -32,3 +35,6 @@ projects/*/openFrameworks-Info.plist
 # Temporary files
 *.tmp
 *.log
+
+
+app_test_3/

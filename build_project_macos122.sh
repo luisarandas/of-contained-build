@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+# Might have warnings on:
+# #elif TARGET_OS_VISION
+
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 . "${HERE}/common.sh"
